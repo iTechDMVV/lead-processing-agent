@@ -8,15 +8,42 @@ An inbound lead qualification and research agent built with [Next.js](http://nex
 
 ## Overview
 
-Lead agent app that captures a lead in a contact sales form and then kicks off a qualification workflow and deep research agent. It integrates with Slack to send and receive messages for human-in-the-loop feedback.
+**The Ultimate Lead Processing Agent** - A comprehensive AI-powered system that handles inbound lead qualification, outbound prospecting, intelligent routing, and multi-channel outreach automation.
 
-- **Immediate Response** - Returns a success response to the user upon submission
-- **Workflows** - Uses Workflow DevKit to kick off durable background tasks
-  - **Deep Research Agent** - Conducts comprehensive research on the lead with a deep research agent
-  - **Qualify Lead** - Uses `generateObject` to categorize the lead based on the lead data and research report
-  - **Write Email** - Generates a personalized response email
-  - **Human-in-the-Loop** - Sends to Slack for human approval before sending
-  - **Slack Webhook** - Catches a webhook event from Slack to approve or deny the email
+### 🚀 Key Features
+
+- **Enhanced Lead Categorization** - 8 sophisticated categories (HOT_LEAD, QUALIFIED, WARM_LEAD, FOLLOW_UP, etc.)
+- **Advanced Lead Scoring** - 0-100 scoring with priority levels and deal value estimation
+- **Intelligent Routing** - Auto-assign leads to best-fit sales reps based on expertise and workload
+- **Lead Enrichment** - Automatic company data enrichment with funding, tech stack, and social profiles
+- **Deep Research Agent** - 10 powerful AI tools for comprehensive prospect research
+- **Personalized Outreach** - 7 email templates optimized for different lead types
+- **Follow-Up Sequences** - Automated multi-touch nurture campaigns
+- **Outbound Workflow** - Cold outreach with multi-channel sequences (email + LinkedIn)
+- **Rich Slack Integration** - Detailed lead insights with human-in-the-loop approval
+
+📖 **[See complete feature documentation →](./FEATURES.md)**
+
+### Core Workflows
+
+**Inbound Lead Processing:**
+- Immediate response to form submission
+- Deep research with AI agent (10 research tools)
+- Lead enrichment with structured data extraction
+- Advanced qualification with scoring and categorization
+- Intelligent routing to appropriate sales rep
+- Personalized email generation (7 template types)
+- Automated follow-up sequence creation
+- Slack approval with comprehensive lead analysis
+- Email sending on approval
+
+**Outbound Prospecting:**
+- Prospect research and qualification
+- ICP fit assessment
+- Personalized cold outreach generation
+- Multi-touch sequence (5-7 touchpoints over 14-21 days)
+- Multi-channel (Email, LinkedIn, Phone)
+- Human review before activation
 
 ## Deploy with Vercel
 
