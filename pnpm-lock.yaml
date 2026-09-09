@@ -10,31 +10,31 @@ importers:
     dependencies:
       '@hookform/resolvers':
         specifier: ^5.2.2
-        version: 5.2.2(react-hook-form@7.64.0(react@19.2.1))
+        version: 5.2.2(react-hook-form@7.64.0(react@19.3.0))
       '@radix-ui/react-label':
         specifier: ^2.1.7
-        version: 2.1.8(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+        version: 2.1.8(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.1(react@19.3.0))(react@19.3.0)
       '@radix-ui/react-separator':
         specifier: ^1.1.7
-        version: 1.1.7(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+        version: 1.1.7(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.1(react@19.3.0))(react@19.3.0)
       '@radix-ui/react-slot':
         specifier: ^1.2.3
-        version: 1.2.3(@types/react@19.2.2)(react@19.2.1)
+        version: 1.2.4(@types/react@19.2.2)(react@19.3.0)
       '@slack/bolt':
         specifier: ^4.6.0
-        version: 4.6.0(@types/express@5.0.3)
+        version: 4.6.0(@types/express@5.0.3)(debug@4.4.3(supports-color@8.1.1))(supports-color@8.1.1)
       '@slack/web-api':
         specifier: ^7.13.0
-        version: 7.13.0
+        version: 7.13.0(debug@4.4.3(supports-color@8.1.1))
       '@vercel/slack-bolt':
         specifier: ^1.0.2
-        version: 1.0.2(@aws-sdk/credential-provider-web-identity@3.609.0(@aws-sdk/client-sts@3.913.0))(@slack/bolt@4.6.0(@types/express@5.0.3))
+        version: 1.0.2(@aws-sdk/credential-provider-web-identity@3.609.0(@aws-sdk/client-sts@3.913.0))(@slack/bolt@4.6.0(@types/express@5.0.3)(debug@4.4.3(supports-color@8.1.1))(supports-color@8.1.1))
       ai:
         specifier: ^5.0.68
         version: 5.0.68(zod@4.1.12)
       botid:
         specifier: ^1.5.10
-        version: 1.5.10(next@16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(react@19.2.1)
+        version: 1.5.10(next@16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.3.0))(react@19.3.0))(react@19.3.0)
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -46,31 +46,31 @@ importers:
         version: 2.0.11(ws@8.18.3)
       lucide-react:
         specifier: ^0.545.0
-        version: 0.545.0(react@19.2.1)
+        version: 0.545.0(react@19.3.0)
       next:
         specifier: 16.0.10
-        version: 16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+        version: 16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.3.0))(react@19.3.0)
       next-themes:
         specifier: ^0.4.6
-        version: 0.4.6(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+        version: 0.4.6(react-dom@19.2.1(react@19.3.0))(react@19.3.0)
       react:
-        specifier: 19.2.1
-        version: 19.2.1
+        specifier: 19.3.0
+        version: 19.3.0
       react-dom:
         specifier: 19.2.1
-        version: 19.2.1(react@19.2.1)
+        version: 19.2.1(react@19.3.0)
       react-hook-form:
         specifier: ^7.64.0
-        version: 7.64.0(react@19.2.1)
+        version: 7.64.0(react@19.3.0)
       sonner:
         specifier: ^2.0.7
-        version: 2.0.7(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+        version: 2.0.7(react-dom@19.2.1(react@19.3.0))(react@19.3.0)
       tailwind-merge:
         specifier: ^3.3.1
         version: 3.3.1
       workflow:
         specifier: 4.0.1-beta.24
-        version: 4.0.1-beta.24(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(next@16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(react-dom@19.2.1(react@19.2.1))(react@19.2.1)(typescript@5.9.3)
+        version: 4.0.1-beta.24(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(next@16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.3.0))(react@19.3.0))(react-dom@19.2.1(react@19.3.0))(react@19.3.0)(supports-color@8.1.1)(typescript@5.9.3)
       zod:
         specifier: ^4.1.12
         version: 4.1.12
@@ -2426,8 +2426,8 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18 || ^19
 
-  react@19.2.1:
-    resolution: {integrity: sha512-DGrYcCWK7tvYMnWh79yrPHt+vdx9tY+1gPZa7nJQtO/p8bLTDaHp4dzwEhQB7pZ4Xe3ok4XKuEPrVuc+wlpkmw==}
+  react@19.3.0:
+    resolution: {integrity: sha512-E8LUcbtBWt20bbl2YoHfx4ZDBdxVTfOKtCZn9cDSJ4l6/nuoApcpIBcj47t2wZoVX8g2ZHuMHbiShgCR1T5Sog==}
     engines: {node: '>=0.10.0'}
 
   readdirp@4.1.2:
@@ -2728,6 +2728,7 @@ packages:
 
   workflow@4.0.1-beta.24:
     resolution: {integrity: sha512-a7L79kw/SCqB9M10Yq7paW9oIgQw+HkqZCMLnGHYmSZ6q0KKJFdlFDrhrKnDet00PcMAxBnx/FbGPVLz6fIhpg==}
+    deprecated: 'Deprecated: this Workflow 4.x beta release is no longer supported. Please upgrade to the latest supported Workflow release.'
     hasBin: true
     peerDependencies:
       '@opentelemetry/api': '1'
@@ -3272,10 +3273,10 @@ snapshots:
   '@esbuild/win32-x64@0.25.11':
     optional: true
 
-  '@hookform/resolvers@5.2.2(react-hook-form@7.64.0(react@19.2.1))':
+  '@hookform/resolvers@5.2.2(react-hook-form@7.64.0(react@19.3.0))':
     dependencies:
       '@standard-schema/utils': 0.3.0
-      react-hook-form: 7.64.0(react@19.2.1)
+      react-hook-form: 7.64.0(react@19.3.0)
 
   '@img/colour@1.0.0':
     optional: true
@@ -3535,72 +3536,72 @@ snapshots:
 
   '@opentelemetry/api@1.9.0': {}
 
-  '@radix-ui/react-compose-refs@1.1.2(@types/react@19.2.2)(react@19.2.1)':
+  '@radix-ui/react-compose-refs@1.1.2(@types/react@19.2.2)(react@19.3.0)':
     dependencies:
-      react: 19.2.1
+      react: 19.3.0
     optionalDependencies:
       '@types/react': 19.2.2
 
-  '@radix-ui/react-label@2.1.8(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)':
+  '@radix-ui/react-label@2.1.8(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.1(react@19.3.0))(react@19.3.0)':
     dependencies:
-      '@radix-ui/react-primitive': 2.1.4(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
-      react: 19.2.1
-      react-dom: 19.2.1(react@19.2.1)
-    optionalDependencies:
-      '@types/react': 19.2.2
-      '@types/react-dom': 19.2.1(@types/react@19.2.2)
-
-  '@radix-ui/react-primitive@2.1.3(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)':
-    dependencies:
-      '@radix-ui/react-slot': 1.2.3(@types/react@19.2.2)(react@19.2.1)
-      react: 19.2.1
-      react-dom: 19.2.1(react@19.2.1)
+      '@radix-ui/react-primitive': 2.1.4(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.1(react@19.3.0))(react@19.3.0)
+      react: 19.3.0
+      react-dom: 19.2.1(react@19.3.0)
     optionalDependencies:
       '@types/react': 19.2.2
       '@types/react-dom': 19.2.1(@types/react@19.2.2)
 
-  '@radix-ui/react-primitive@2.1.4(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)':
+  '@radix-ui/react-primitive@2.1.3(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.1(react@19.3.0))(react@19.3.0)':
     dependencies:
-      '@radix-ui/react-slot': 1.2.4(@types/react@19.2.2)(react@19.2.1)
-      react: 19.2.1
-      react-dom: 19.2.1(react@19.2.1)
+      '@radix-ui/react-slot': 1.2.3(@types/react@19.2.2)(react@19.3.0)
+      react: 19.3.0
+      react-dom: 19.2.1(react@19.3.0)
     optionalDependencies:
       '@types/react': 19.2.2
       '@types/react-dom': 19.2.1(@types/react@19.2.2)
 
-  '@radix-ui/react-separator@1.1.7(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)':
+  '@radix-ui/react-primitive@2.1.4(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.1(react@19.3.0))(react@19.3.0)':
     dependencies:
-      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
-      react: 19.2.1
-      react-dom: 19.2.1(react@19.2.1)
+      '@radix-ui/react-slot': 1.2.4(@types/react@19.2.2)(react@19.3.0)
+      react: 19.3.0
+      react-dom: 19.2.1(react@19.3.0)
     optionalDependencies:
       '@types/react': 19.2.2
       '@types/react-dom': 19.2.1(@types/react@19.2.2)
 
-  '@radix-ui/react-slot@1.2.3(@types/react@19.2.2)(react@19.2.1)':
+  '@radix-ui/react-separator@1.1.7(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.1(react@19.3.0))(react@19.3.0)':
     dependencies:
-      '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.2.2)(react@19.2.1)
-      react: 19.2.1
+      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.1(react@19.3.0))(react@19.3.0)
+      react: 19.3.0
+      react-dom: 19.2.1(react@19.3.0)
+    optionalDependencies:
+      '@types/react': 19.2.2
+      '@types/react-dom': 19.2.1(@types/react@19.2.2)
+
+  '@radix-ui/react-slot@1.2.3(@types/react@19.2.2)(react@19.3.0)':
+    dependencies:
+      '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.2.2)(react@19.3.0)
+      react: 19.3.0
     optionalDependencies:
       '@types/react': 19.2.2
 
-  '@radix-ui/react-slot@1.2.4(@types/react@19.2.2)(react@19.2.1)':
+  '@radix-ui/react-slot@1.2.4(@types/react@19.2.2)(react@19.3.0)':
     dependencies:
-      '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.2.2)(react@19.2.1)
-      react: 19.2.1
+      '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.2.2)(react@19.3.0)
+      react: 19.3.0
     optionalDependencies:
       '@types/react': 19.2.2
 
-  '@slack/bolt@4.6.0(@types/express@5.0.3)':
+  '@slack/bolt@4.6.0(@types/express@5.0.3)(debug@4.4.3(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
       '@slack/logger': 4.0.0
-      '@slack/oauth': 3.0.4
-      '@slack/socket-mode': 2.0.5
+      '@slack/oauth': 3.0.4(debug@4.4.3(supports-color@8.1.1))
+      '@slack/socket-mode': 2.0.5(debug@4.4.3(supports-color@8.1.1))
       '@slack/types': 2.19.0
-      '@slack/web-api': 7.13.0
+      '@slack/web-api': 7.13.0(debug@4.4.3(supports-color@8.1.1))
       '@types/express': 5.0.3
-      axios: 1.12.2
-      express: 5.1.0
+      axios: 1.12.2(debug@4.4.3(supports-color@8.1.1))
+      express: 5.1.0(supports-color@8.1.1)
       path-to-regexp: 8.3.0
       raw-body: 3.0.1
       tsscmp: 1.0.6
@@ -3614,20 +3615,20 @@ snapshots:
     dependencies:
       '@types/node': 20.19.20
 
-  '@slack/oauth@3.0.4':
+  '@slack/oauth@3.0.4(debug@4.4.3(supports-color@8.1.1))':
     dependencies:
       '@slack/logger': 4.0.0
-      '@slack/web-api': 7.13.0
+      '@slack/web-api': 7.13.0(debug@4.4.3(supports-color@8.1.1))
       '@types/jsonwebtoken': 9.0.10
       '@types/node': 20.19.20
       jsonwebtoken: 9.0.2
     transitivePeerDependencies:
       - debug
 
-  '@slack/socket-mode@2.0.5':
+  '@slack/socket-mode@2.0.5(debug@4.4.3(supports-color@8.1.1))':
     dependencies:
       '@slack/logger': 4.0.0
-      '@slack/web-api': 7.13.0
+      '@slack/web-api': 7.13.0(debug@4.4.3(supports-color@8.1.1))
       '@types/node': 20.19.20
       '@types/ws': 8.18.1
       eventemitter3: 5.0.1
@@ -3639,13 +3640,13 @@ snapshots:
 
   '@slack/types@2.19.0': {}
 
-  '@slack/web-api@7.13.0':
+  '@slack/web-api@7.13.0(debug@4.4.3(supports-color@8.1.1))':
     dependencies:
       '@slack/logger': 4.0.0
       '@slack/types': 2.19.0
       '@types/node': 20.19.20
       '@types/retry': 0.12.0
-      axios: 1.12.2
+      axios: 1.12.2(debug@4.4.3(supports-color@8.1.1))
       eventemitter3: 5.0.1
       form-data: 4.0.4
       is-electron: 2.2.2
@@ -4161,18 +4162,18 @@ snapshots:
       '@vercel/oidc': 3.0.5
       mixpart: 0.0.5-alpha.1
 
-  '@vercel/slack-bolt@1.0.2(@aws-sdk/credential-provider-web-identity@3.609.0(@aws-sdk/client-sts@3.913.0))(@slack/bolt@4.6.0(@types/express@5.0.3))':
+  '@vercel/slack-bolt@1.0.2(@aws-sdk/credential-provider-web-identity@3.609.0(@aws-sdk/client-sts@3.913.0))(@slack/bolt@4.6.0(@types/express@5.0.3)(debug@4.4.3(supports-color@8.1.1))(supports-color@8.1.1))':
     dependencies:
-      '@slack/bolt': 4.6.0(@types/express@5.0.3)
+      '@slack/bolt': 4.6.0(@types/express@5.0.3)(debug@4.4.3(supports-color@8.1.1))(supports-color@8.1.1)
       '@slack/logger': 4.0.0
       '@vercel/functions': 3.1.4(@aws-sdk/credential-provider-web-identity@3.609.0(@aws-sdk/client-sts@3.913.0))
     transitivePeerDependencies:
       - '@aws-sdk/credential-provider-web-identity'
 
-  '@workflow/astro@4.0.0-beta.3(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)':
+  '@workflow/astro@4.0.0-beta.3(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)':
     dependencies:
       '@swc/core': 1.11.24
-      '@workflow/builders': 4.0.1-beta.20(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)
+      '@workflow/builders': 4.0.1-beta.20(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)
       '@workflow/rollup': 4.0.0-beta.4
       '@workflow/swc-plugin': 4.0.1-beta.10(@swc/core@1.11.24)
       exsolve: 1.0.8
@@ -4183,10 +4184,10 @@ snapshots:
       - '@swc/helpers'
       - supports-color
 
-  '@workflow/builders@4.0.1-beta.20(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)':
+  '@workflow/builders@4.0.1-beta.20(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)':
     dependencies:
       '@swc/core': 1.11.24
-      '@workflow/core': 4.0.1-beta.21(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)
+      '@workflow/core': 4.0.1-beta.21(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)
       '@workflow/errors': 4.0.1-beta.7
       '@workflow/swc-plugin': 4.0.1-beta.10(@swc/core@1.11.24)
       builtin-modules: 5.0.0
@@ -4202,16 +4203,16 @@ snapshots:
       - '@swc/helpers'
       - supports-color
 
-  '@workflow/cli@4.0.1-beta.24(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)(typescript@5.9.3)':
+  '@workflow/cli@4.0.1-beta.24(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.3.0))(react@19.3.0)(supports-color@8.1.1)(typescript@5.9.3)':
     dependencies:
       '@oclif/core': 4.0.0(typescript@5.9.3)
       '@oclif/plugin-help': 6.2.31
       '@swc/core': 1.11.24
-      '@workflow/builders': 4.0.1-beta.20(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)
-      '@workflow/core': 4.0.1-beta.21(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)
+      '@workflow/builders': 4.0.1-beta.20(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)
+      '@workflow/core': 4.0.1-beta.21(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)
       '@workflow/errors': 4.0.1-beta.7
       '@workflow/swc-plugin': 4.0.1-beta.10(@swc/core@1.11.24)
-      '@workflow/web': 4.0.1-beta.12(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+      '@workflow/web': 4.0.1-beta.12(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.3.0))(react@19.3.0)
       '@workflow/world': 4.0.1-beta.8(zod@4.1.11)
       '@workflow/world-local': 4.0.1-beta.14(@opentelemetry/api@1.9.0)
       '@workflow/world-vercel': 4.0.1-beta.15
@@ -4246,7 +4247,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@workflow/core@4.0.1-beta.21(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)':
+  '@workflow/core@4.0.1-beta.21(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)':
     dependencies:
       '@aws-sdk/credential-provider-web-identity': 3.609.0(@aws-sdk/client-sts@3.913.0)
       '@jridgewell/trace-mapping': 0.3.31
@@ -4276,27 +4277,27 @@ snapshots:
       '@workflow/utils': 4.0.1-beta.5
       ms: 2.1.3
 
-  '@workflow/next@4.0.1-beta.24(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(next@16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))':
+  '@workflow/next@4.0.1-beta.24(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(next@16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.3.0))(react@19.3.0))(supports-color@8.1.1)':
     dependencies:
       '@swc/core': 1.11.24
-      '@workflow/builders': 4.0.1-beta.20(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)
-      '@workflow/core': 4.0.1-beta.21(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)
+      '@workflow/builders': 4.0.1-beta.20(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)
+      '@workflow/core': 4.0.1-beta.21(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)
       '@workflow/swc-plugin': 4.0.1-beta.10(@swc/core@1.11.24)
       semver: 7.7.3
       watchpack: 2.4.4
     optionalDependencies:
-      next: 16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+      next: 16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.3.0))(react@19.3.0)
     transitivePeerDependencies:
       - '@aws-sdk/client-sts'
       - '@opentelemetry/api'
       - '@swc/helpers'
       - supports-color
 
-  '@workflow/nitro@4.0.1-beta.24(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)':
+  '@workflow/nitro@4.0.1-beta.24(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)':
     dependencies:
       '@swc/core': 1.11.24
-      '@workflow/builders': 4.0.1-beta.20(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)
-      '@workflow/core': 4.0.1-beta.21(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)
+      '@workflow/builders': 4.0.1-beta.20(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)
+      '@workflow/core': 4.0.1-beta.21(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)
       '@workflow/rollup': 4.0.0-beta.4
       '@workflow/swc-plugin': 4.0.1-beta.10(@swc/core@1.11.24)
       exsolve: 1.0.7
@@ -4307,10 +4308,10 @@ snapshots:
       - '@swc/helpers'
       - supports-color
 
-  '@workflow/nuxt@4.0.1-beta.13(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)':
+  '@workflow/nuxt@4.0.1-beta.13(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)':
     dependencies:
       '@nuxt/kit': 4.2.0
-      '@workflow/nitro': 4.0.1-beta.24(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)
+      '@workflow/nitro': 4.0.1-beta.24(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)
     transitivePeerDependencies:
       - '@aws-sdk/client-sts'
       - '@opentelemetry/api'
@@ -4326,10 +4327,10 @@ snapshots:
     transitivePeerDependencies:
       - '@swc/helpers'
 
-  '@workflow/sveltekit@4.0.0-beta.18(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)':
+  '@workflow/sveltekit@4.0.0-beta.18(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)':
     dependencies:
       '@swc/core': 1.11.24
-      '@workflow/builders': 4.0.1-beta.20(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)
+      '@workflow/builders': 4.0.1-beta.20(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)
       '@workflow/rollup': 4.0.0-beta.4
       '@workflow/swc-plugin': 4.0.1-beta.10(@swc/core@1.11.24)
       exsolve: 1.0.8
@@ -4353,9 +4354,9 @@ snapshots:
     dependencies:
       ms: 2.1.3
 
-  '@workflow/web@4.0.1-beta.12(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)':
+  '@workflow/web@4.0.1-beta.12(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.3.0))(react@19.3.0)':
     dependencies:
-      next: 16.0.6(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+      next: 16.0.6(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.3.0))(react@19.3.0)
     transitivePeerDependencies:
       - '@babel/core'
       - '@opentelemetry/api'
@@ -4442,9 +4443,9 @@ snapshots:
 
   asynckit@0.4.0: {}
 
-  axios@1.12.2:
+  axios@1.12.2(debug@4.4.3(supports-color@8.1.1)):
     dependencies:
-      follow-redirects: 1.15.11
+      follow-redirects: 1.15.11(debug@4.4.3(supports-color@8.1.1))
       form-data: 4.0.4
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
@@ -4452,7 +4453,7 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
-  body-parser@2.2.0:
+  body-parser@2.2.0(supports-color@8.1.1):
     dependencies:
       bytes: 3.1.2
       content-type: 1.0.5
@@ -4466,10 +4467,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  botid@1.5.10(next@16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(react@19.2.1):
+  botid@1.5.10(next@16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.3.0))(react@19.3.0))(react@19.3.0):
     optionalDependencies:
-      next: 16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
-      react: 19.2.1
+      next: 16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.3.0))(react@19.3.0)
+      react: 19.3.0
 
   bowser@2.13.1: {}
 
@@ -4784,10 +4785,10 @@ snapshots:
       - encoding
       - ws
 
-  express@5.1.0:
+  express@5.1.0(supports-color@8.1.1):
     dependencies:
       accepts: 2.0.0
-      body-parser: 2.2.0
+      body-parser: 2.2.0(supports-color@8.1.1)
       content-disposition: 1.0.0
       content-type: 1.0.5
       cookie: 0.7.2
@@ -4796,7 +4797,7 @@ snapshots:
       encodeurl: 2.0.0
       escape-html: 1.0.3
       etag: 1.8.1
-      finalhandler: 2.1.0
+      finalhandler: 2.1.0(supports-color@8.1.1)
       fresh: 2.0.0
       http-errors: 2.0.0
       merge-descriptors: 2.0.0
@@ -4807,9 +4808,9 @@ snapshots:
       proxy-addr: 2.0.7
       qs: 6.14.0
       range-parser: 1.2.1
-      router: 2.2.0
-      send: 1.2.0
-      serve-static: 2.2.0
+      router: 2.2.0(supports-color@8.1.1)
+      send: 1.2.0(supports-color@8.1.1)
+      serve-static: 2.2.0(supports-color@8.1.1)
       statuses: 2.0.2
       type-is: 2.0.1
       vary: 1.1.2
@@ -4848,7 +4849,7 @@ snapshots:
     dependencies:
       to-regex-range: 5.0.1
 
-  finalhandler@2.1.0:
+  finalhandler@2.1.0(supports-color@8.1.1):
     dependencies:
       debug: 4.4.3(supports-color@8.1.1)
       encodeurl: 2.0.0
@@ -4865,7 +4866,9 @@ snapshots:
       path-exists: 5.0.0
       unicorn-magic: 0.1.0
 
-  follow-redirects@1.15.11: {}
+  follow-redirects@1.15.11(debug@4.4.3(supports-color@8.1.1)):
+    optionalDependencies:
+      debug: 4.4.3(supports-color@8.1.1)
 
   form-data@4.0.4:
     dependencies:
@@ -5148,9 +5151,9 @@ snapshots:
       chalk: 5.6.2
       is-unicode-supported: 1.3.0
 
-  lucide-react@0.545.0(react@19.2.1):
+  lucide-react@0.545.0(react@19.3.0):
     dependencies:
-      react: 19.2.1
+      react: 19.3.0
 
   magic-string@0.30.19:
     dependencies:
@@ -5216,20 +5219,20 @@ snapshots:
 
   negotiator@1.0.0: {}
 
-  next-themes@0.4.6(react-dom@19.2.1(react@19.2.1))(react@19.2.1):
+  next-themes@0.4.6(react-dom@19.2.1(react@19.3.0))(react@19.3.0):
     dependencies:
-      react: 19.2.1
-      react-dom: 19.2.1(react@19.2.1)
+      react: 19.3.0
+      react-dom: 19.2.1(react@19.3.0)
 
-  next@16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.2.1))(react@19.2.1):
+  next@16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.3.0))(react@19.3.0):
     dependencies:
       '@next/env': 16.0.10
       '@swc/helpers': 0.5.15
       caniuse-lite: 1.0.30001759
       postcss: 8.4.31
-      react: 19.2.1
-      react-dom: 19.2.1(react@19.2.1)
-      styled-jsx: 5.1.6(react@19.2.1)
+      react: 19.3.0
+      react-dom: 19.2.1(react@19.3.0)
+      styled-jsx: 5.1.6(react@19.3.0)
     optionalDependencies:
       '@next/swc-darwin-arm64': 16.0.10
       '@next/swc-darwin-x64': 16.0.10
@@ -5245,15 +5248,15 @@ snapshots:
       - '@babel/core'
       - babel-plugin-macros
 
-  next@16.0.6(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.2.1))(react@19.2.1):
+  next@16.0.6(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.3.0))(react@19.3.0):
     dependencies:
       '@next/env': 16.0.6
       '@swc/helpers': 0.5.15
       caniuse-lite: 1.0.30001759
       postcss: 8.4.31
-      react: 19.2.1
-      react-dom: 19.2.1(react@19.2.1)
-      styled-jsx: 5.1.6(react@19.2.1)
+      react: 19.3.0
+      react-dom: 19.2.1(react@19.3.0)
+      styled-jsx: 5.1.6(react@19.3.0)
     optionalDependencies:
       '@next/swc-darwin-arm64': 16.0.6
       '@next/swc-darwin-x64': 16.0.6
@@ -5429,16 +5432,16 @@ snapshots:
       defu: 6.1.4
       destr: 2.0.5
 
-  react-dom@19.2.1(react@19.2.1):
+  react-dom@19.2.1(react@19.3.0):
     dependencies:
-      react: 19.2.1
+      react: 19.3.0
       scheduler: 0.27.0
 
-  react-hook-form@7.64.0(react@19.2.1):
+  react-hook-form@7.64.0(react@19.3.0):
     dependencies:
-      react: 19.2.1
+      react: 19.3.0
 
-  react@19.2.1: {}
+  react@19.3.0: {}
 
   readdirp@4.1.2: {}
 
@@ -5455,7 +5458,7 @@ snapshots:
 
   reusify@1.1.0: {}
 
-  router@2.2.0:
+  router@2.2.0(supports-color@8.1.1):
     dependencies:
       debug: 4.4.3(supports-color@8.1.1)
       depd: 2.0.0
@@ -5483,7 +5486,7 @@ snapshots:
 
   semver@7.7.3: {}
 
-  send@1.2.0:
+  send@1.2.0(supports-color@8.1.1):
     dependencies:
       debug: 4.4.3(supports-color@8.1.1)
       encodeurl: 2.0.0
@@ -5499,12 +5502,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  serve-static@2.2.0:
+  serve-static@2.2.0(supports-color@8.1.1):
     dependencies:
       encodeurl: 2.0.0
       escape-html: 1.0.3
       parseurl: 1.3.3
-      send: 1.2.0
+      send: 1.2.0(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -5574,10 +5577,10 @@ snapshots:
 
   slash@3.0.0: {}
 
-  sonner@2.0.7(react-dom@19.2.1(react@19.2.1))(react@19.2.1):
+  sonner@2.0.7(react-dom@19.2.1(react@19.3.0))(react@19.3.0):
     dependencies:
-      react: 19.2.1
-      react-dom: 19.2.1(react@19.2.1)
+      react: 19.3.0
+      react-dom: 19.2.1(react@19.3.0)
 
   source-map-js@1.2.1: {}
 
@@ -5609,10 +5612,10 @@ snapshots:
 
   strnum@2.1.2: {}
 
-  styled-jsx@5.1.6(react@19.2.1):
+  styled-jsx@5.1.6(react@19.3.0):
     dependencies:
       client-only: 0.0.1
-      react: 19.2.1
+      react: 19.3.0
 
   supports-color@10.2.2: {}
 
@@ -5749,17 +5752,17 @@ snapshots:
 
   wordwrap@1.0.0: {}
 
-  workflow@4.0.1-beta.24(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(next@16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(react-dom@19.2.1(react@19.2.1))(react@19.2.1)(typescript@5.9.3):
+  workflow@4.0.1-beta.24(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(next@16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.3.0))(react@19.3.0))(react-dom@19.2.1(react@19.3.0))(react@19.3.0)(supports-color@8.1.1)(typescript@5.9.3):
     dependencies:
-      '@workflow/astro': 4.0.0-beta.3(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)
-      '@workflow/cli': 4.0.1-beta.24(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)(typescript@5.9.3)
-      '@workflow/core': 4.0.1-beta.21(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)
+      '@workflow/astro': 4.0.0-beta.3(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)
+      '@workflow/cli': 4.0.1-beta.24(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.3.0))(react@19.3.0)(supports-color@8.1.1)(typescript@5.9.3)
+      '@workflow/core': 4.0.1-beta.21(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)
       '@workflow/errors': 4.0.1-beta.7
-      '@workflow/next': 4.0.1-beta.24(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(next@16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))
-      '@workflow/nitro': 4.0.1-beta.24(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)
-      '@workflow/nuxt': 4.0.1-beta.13(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)
+      '@workflow/next': 4.0.1-beta.24(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(next@16.0.10(@opentelemetry/api@1.9.0)(react-dom@19.2.1(react@19.3.0))(react@19.3.0))(supports-color@8.1.1)
+      '@workflow/nitro': 4.0.1-beta.24(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)
+      '@workflow/nuxt': 4.0.1-beta.13(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)
       '@workflow/rollup': 4.0.0-beta.4
-      '@workflow/sveltekit': 4.0.0-beta.18(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)
+      '@workflow/sveltekit': 4.0.0-beta.18(@aws-sdk/client-sts@3.913.0)(@opentelemetry/api@1.9.0)(supports-color@8.1.1)
       '@workflow/typescript-plugin': 4.0.1-beta.4(typescript@5.9.3)
       ms: 2.1.3
     optionalDependencies:
